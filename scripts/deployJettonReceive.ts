@@ -29,8 +29,8 @@ export async function run(provider: NetworkProvider) {
     const address = jettonReceiver.address;
     const simpleCounter = provider.open(JettonReceive.fromAddress(address));
 
-    const jettonAmount = await simpleCounter.getMyJettonAmount();
-    const jettonWalletAddress = await simpleCounter.getMyJettonWalletAddress();
-    console.log(`Jetton amount: ${jettonAmount}`);
-    console.log(`Jetton wallet address: ${jettonWalletAddress}`);
+    // const jettonAmount = await simpleCounter.getMyJettonAmount();
+    // const jettonWalletAddress = await simpleCounter.getMyJettonWalletAddress();
+    // console.log(`Jetton amount: ${jettonAmount}`);
+    // console.log(`Jetton wallet address: ${jettonWalletAddress}`);
 }
